@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }  
+        
+    body {
+
+        background-image: url("https://mblogthumb-phinf.pstatic.net/MjAyMDAzMTRfMjkg/MDAxNTg0MTYzNDI5MzQw.jpZx_uTpJmZwWsGo3Bk0GYKYw4IuiKyFU712Fai7ZRwg.3vojrnTMfNDDS_hK3x6Q4Puiuu_cTyfSbNtqQ0Ugt6Qg.JPEG.finky04/04.jpg?type=w800");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        border-color: white;
+        }
+
+        .time{
+            font-size: 100px;
+            
+        }
+
+        .greeting{
+            font-size : 50px;
+           
+        }
+
+        .todo{
+            font-size: 50px;
+        }
+
+        .author{
+            font-size: 30px;
+            font-style: italic;
+        }
+        .content{
+            font-size: 20px;
+            font-style: italic;
+        }
+
+        .main{
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote{
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+    <div id ="time" class="time">12:00</div>
+    <div class="greeting">Hello, Rio!</div>
+    <div class="todo">주 4회 운동하기&6시 이후로 금식하기</div>
+    </div>
+
+    <div>
+        <div class="quote">
+        <div  id="author" class="author">-스페인 속담-</div>
+        <div id="content" class="content">"비가 내리고 바람이 불어야 비옥한 땅이 된다"</div>
+    </div>
+</body>
+
+</html>
